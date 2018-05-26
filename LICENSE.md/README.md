@@ -15,6 +15,10 @@
 - Post delivery reports, assets and other references as `issues`. 
 - Use `labels` and to create better visibility and organisation between `issues` 
 
+![](https://image.ibb.co/hm8WgT/Screen_Shot_2018_05_18_at_20_26_54.png)
+
+![](https://image.ibb.co/mYFNo8/Screen_Shot_2018_05_18_at_20_27_30.png)
+
 If you are working on visual, motion design or illustration tasks for use in general visual communication (e.g. promotion, marketing, instructions…) – using only Decred-Design and Slack will cover most of the needs.
 
 If you are working with different Decred Platforms/Products – both the relevant product(s) repos and /Decred-Design should be regularly used tools. While different product repos have various use practices, levels organisation and activity, the /Decred-Design role is to bring clarity between a general design direction and how it’s applied across the products. It's recommended to post all important design developments and deliverables with sufficient descriptions to /Decred-Design for archiving. 
@@ -23,7 +27,3 @@ Obviously different teams have nuances in their approaches, as one rule of thumb
 
 ### Next steps
 The current use of this repo can be looked as a stepping stone towards building a functional design system. The groundwork requires working further into practice of using gh, recollecting and organising various assets, component libraries, practice guides and standards as well completing critical design developments in key platforms. The framework for the system will be hosted here. 
-
-![](https://image.ibb.co/hm8WgT/Screen_Shot_2018_05_18_at_20_26_54.png)
-
-![](https://image.ibb.co/mYFNo8/Screen_Shot_2018_05_18_at_20_27_30.png)
