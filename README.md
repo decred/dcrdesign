@@ -12,6 +12,7 @@
 - Use Slack’s design and projects ops channels for quick and temporary communications and general discussions around work. (#design /redux/ops)
 - Post one selfs tasks and projects for coordination on the relevant `project boards`
 - When posting a new item, start with a `Note`. When the item is in progress, define it’s details by making it into an `issue`. 
+- When doing confidential work, post the published result under the Completed board and document it as an issue (e.g. short delivery report, preview, links, work files or assets) once ready for publishing.
 - Post delivery reports, assets and other references as `issues`. 
 - Use `labels` and to create better visibility and organisation between `issues` 
 
