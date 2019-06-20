@@ -1,4 +1,4 @@
-![](https://i.ibb.co/vjKD6Tv/dcrdesign-0219.png)
+![](https://i.ibb.co/1RSg8cv/dcr-contributors-062019.png)
 
 **/dcrdesign** repo has been created with the intent of scaling the design output, maintaining consistency, accessibility and organisation. Current functions are following: 
 
