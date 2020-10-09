@@ -1,0 +1,158 @@
+//Menu Elements
+var showNameMenu = thisComp.layer("CTRL").effect("showNameMenu")("Menu").value;
+var decredDropdownMenu = thisComp.layer("CTRL").effect("decredDropdownMenu")("Menu").value;
+var politeiaDropdownMenu = thisComp.layer("CTRL").effect("politeiaDropdownMenu")("Menu").value;
+var dexDropdownMenu = thisComp.layer("CTRL").effect("dexDropdownMenu")("Menu").value;
+var customText = thisComp.layer("customText").text.sourceText;
+var customTextCheck = thisComp.layer("CTRL").effect("customTextCheck")("Checkbox");
+
+var decredChoice = (showNameMenu == 1);
+var politeiaChoice = (showNameMenu == 2);
+var dexChoice = (showNameMenu == 3);
+
+//Custom Text Addition
+if (customTextCheck == 1) {
+  customText;
+}
+
+//Menu Elements
+var showNameMenu = thisComp.layer("CTRL").effect("showNameMenu")("Menu").value;
+var decredDropdownMenu = thisComp.layer("CTRL").effect("decredDropdownMenu")("Menu").value;
+var politeiaDropdownMenu = thisComp.layer("CTRL").effect("politeiaDropdownMenu")("Menu").value;
+var dexDropdownMenu = thisComp.layer("CTRL").effect("dexDropdownMenu")("Menu").value;
+var customText = thisComp.layer("customText").text.sourceText;
+var customTextCheck = thisComp.layer("CTRL").effect("customTextCheck")("Checkbox");
+
+var decredChoice = (showNameMenu == 1);
+var politeiaChoice = (showNameMenu == 2);
+var dexChoice = (showNameMenu == 3);
+
+//Decred Dropdown Menu
+if (customTextCheck == 1) {
+  customText;
+} else if ((decredChoice)&&(decredDropdownMenu == 1)) {
+  "Bi-weekly";
+} else if ((decredChoice)&&(decredDropdownMenu == 2)) {
+  "News";
+} else if ((decredChoice)&&(decredDropdownMenu == 3)) {
+  "Development";
+} else if ((decredChoice)&&(decredDropdownMenu == 4)) {
+  "Community";
+} else if ((decredChoice)&&(decredDropdownMenu == 5)) {
+  "Events";
+} else if ((politeiaChoice)&&(politeiaDropdownMenu == 1)) {
+  "Development";
+} else if ((politeiaChoice)&&(politeiaDropdownMenu == 2)) {
+  "In Discussion";
+} else if ((politeiaChoice)&&(politeiaDropdownMenu == 3)) {
+  "Voting";
+} else if ((politeiaChoice)&&(politeiaDropdownMenu == 4)) {
+  "Approved";
+} else if ((politeiaChoice)&&(politeiaDropdownMenu == 5)) {
+  "Rejected";
+} else if ((politeiaChoice)&&(politeiaDropdownMenu == 6)) {
+  "Abandoned";
+} else if ((dexChoice)&&(dexDropdownMenu == 1)) {
+  "Development";
+} else if ((dexChoice)&&(dexDropdownMenu  == 2)) {
+  "Metrics";
+} else {
+  "ERROR";
+}
+
+//Text switch
+if (showNameMenu == 1){
+  100;
+} else {
+  0;
+}
+
+//Decred Logo Animation
+var tempX = transform.position[0];
+var tempY = transform.position[1];
+var decredLogoAnimateInPosition = thisComp.layer("decredLogoAnimateIn").transform.position;
+var decredLogoAnimateOutPostion = thisComp.layer("decredLogoAnimateOut").transform.position;
+var decredLogoHoldPosition = [tempX,tempY];
+var decredLogoTransitionInPosition = thisComp.layer("decredLogoTransitionIn").transform.position;
+var decredLogoTransitionOutPosition = thisComp.layer("decredLogoTransitionOut").transform.position;
+var showItemAnimateInPosition = thisComp.layer("showItemAnimateIn").transform.position;
+var showItemAnimateOutPosition = thisComp.layer("showItemAnimateOut").transform.position;
+var showItemLogoHoldPosition = [tempX,tempY];
+var showItemTransitionInPosition = thisComp.layer("showItemTransitionIn").transform.position;
+var showItemTransitionOutPosition = thisComp.layer("showItemTransitionOut").transform.position;
+var showNameAnimateInPosition = thisComp.layer("showNameAnimateIn").transform.position;
+var showNameAnimateOutPosition = thisComp.layer("showNameAnimateOut").transform.position;
+var showNameHoldPosition = [tempX,tempY];
+var showNameTransitionInPosition = thisComp.layer("showNameTransitionIn").transform.position;
+var showNameTransitionOutPosition = thisComp.layer("showNameTransitionOut").transform.position;
+var motionStyle = thisComp.layer("CTRL").effect("motionStyle")("Menu").value;
+
+var animateIn = (motionStyle == 1)
+var hold = (motionStyle == 2)
+var animateOut = (motionStyle == 3)
+var transitionIn = (motionStyle == 4)
+var transitionOut = (motionStyle == 5)
+
+//Decred Logo Variables
+if (motionStyle = animateIn) {
+  decredLogoAnimateInPosition;
+} else if (motionStyle = animateOut) {
+  decredLogoAnimateOutPostion;
+} else if (motionStyle = hold) {
+  decredLogoHoldPosition;
+} else if (motionStyle = transitionIn) {
+  decredLogoTransitionInPosition;
+} else if (motionStyle = transitionOut) {
+  decredLogoTransitionOutPosition;
+}
+
+//Show Name Variables
+if (motionStyle = animateIn) {
+  showNameAnimateInPosition;
+} else if (motionStyle = animateOut) {
+  showNameAnimateOutPostion;
+} else if (motionStyle = hold) {
+  showNameHoldPosition;
+} else if (motionStyle = transitionIn) {
+  showNameTransitionInPosition;
+} else if (motionStyle = transitionOut) {
+  showNameTransitionOutPosition;
+}
+
+//Show Item Variables
+if (motionStyle = animateIn) {
+  showItemAnimateInPosition;
+} else if (motionStyle = animateOut) {
+  showItemAnimateOutPostion;
+} else if (motionStyle = hold) {
+  showItemHoldPosition;
+} else if (motionStyle = transitionIn) {
+  showItemTransitionOutPosition;
+} else if (motionStyle = transitionOut) {
+  showItemTransitionOutPosition;
+}
+
+// Decred Logo Mattes
+var sideMatte = thisComp.layer("decredLogo").effect("sideMatte").compositingOption.effectOpacity
+var transitionMatte = thisComp.layer("decredLogo").effect("transitionMatte").compositingOption.effectOpacity
+
+if ((motionStyle => 1) && (motionStyle =< 3)) {
+  100
+} else {
+  0
+}
+
+//Partition Movement
+var tempX = transform.scale[0];
+var tempY = transform.scale[1];
+
+if (motionStyle == 1) {
+  [tempX,tempY]
+} else {
+  [100,100]
+}
+
+//Hold Switches
+var decredLogoHoldCheck = thisComp.layer("CTRL").effect("decredLogoHoldCheck")("Checkbox");
+var showNameHoldCheck = thisComp.layer("CTRL").effect("showNameHoldCheck")("Checkbox");
+var showItemHoldCheck = thisComp.layer("CTRL").effect("showItemHoldCheck")("Checkbox");
