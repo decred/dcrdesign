@@ -1,0 +1,81 @@
+//Color Menu
+var backgroundColorDropdownMenu = thisComp.layer("CTRL").effect("backgroundColorDropdownMenu")("Menu").value;
+var textColorDropdownMenu = thisComp.layer("CTRL").effect("textColorDropdownMenu")("Menu").value;
+
+var colorDropdownMenu = thisComp.layer("CTRL").effect("colorDropdownMenu")("Menu").value;
+
+var colorControl1 = thisComp.layer("CTRL").effect("colorControl1")("Color").value;
+var colorControl2 = thisComp.layer("CTRL").effect("colorControl2")("Color").value;
+var colorControl3 = thisComp.layer("CTRL").effect("colorControl3")("Color").value;
+var colorControl4 = thisComp.layer("CTRL").effect("colorControl4")("Color").value;
+var colorControl5 = thisComp.layer("CTRL").effect("colorControl5")("Color").value;
+var colorControl6 = thisComp.layer("CTRL").effect("colorControl6")("Color").value;
+var colorControl7 = thisComp.layer("CTRL").effect("colorControl7")("Color").value;
+var colorControl8 = thisComp.layer("CTRL").effect("colorControl8")("Color").value;
+
+if (colorDropdownMenu == 1) {
+  colorControl1;
+} else if (colorDropdownMenu == 2) {
+  colorControl2;
+} else if (colorDropdownMenu == 3) {
+  colorControl3;
+} else if (colorDropdownMenu == 4) {
+  colorControl4;
+} else if (colorDropdownMenu == 5) {
+  colorControl5;
+} else if (colorDropdownMenu == 6) {
+  colorControl6;
+} else if (colorDropdownMenu == 7) {
+  colorControl7;
+} else if (colorDropdownMenu == 8) {
+  colorControl8;
+}
+
+//Scale Controller
+var nameScaleController = thisComp.layer("CTRL").effect("nameScaleController")("Slider").value;
+var secondaryScaleController = thisComp.layer("CTRL").effect("secondaryScaleController")("Slider").value;
+
+var tempX = transform.position[0];
+var tempY = transform.position[1];
+var nameTextScaleBase =  thisComp.layer("CTRL").effect("nameTextScaleBase")("Slider").value;
+var secondaryTextScaleBase =  thisComp.layer("CTRL").effect("nameTextScaleBase")("Slider").value;
+
+var nameTextLength = thisComp.layer("nameText").text.sourceText.length;
+var secondaryTextLength = thisComp.layer("nameText").text.sourceText.length;
+
+[(tempX + (nameTextScaleBase*nameTextLength))*nameScaleController, 100];
+[(tempX + (secondaryTextScaleBase*secondaryTextLength))*secondaryScaleController, 100];
+
+//Transition Sliders
+var motionStyle = thisComp.layer("CTRL").effect("motionStyle")("Menu").value;
+
+var animateIn = (motionStyle == 1)
+var hold = (motionStyle == 2)
+var animateOut = (motionStyle == 3)
+var fullSequence = (motionStyle == 4)
+
+var animateInSlider = thisComp.layer("CTRL").effect("animateInSlider")("Slider").value;
+var animateOutSlider = thisComp.layer("CTRL").effect("animateOutSlider")("Slider").value;
+var hold = value;
+var fullSequenceSlider = thisComp.layer("CTRL").effect("fullSequenceSlider")("Slider").value;
+
+if (animateIn) {
+  animateInSlider;
+} else if (animateOut) {
+  animateOutSlider;
+} else if (hold) {
+  hold;
+} else if (fullSequence) {
+  fullSequenceSlider;
+}
+
+//Background Switch
+var backgroundCheck = thisComp.layer("CTRL").effect("backgroundCheck")("Checkbox").value;
+
+if (backgroundCheck == 1) {
+  100
+} else {
+  0;
+}
+
+//

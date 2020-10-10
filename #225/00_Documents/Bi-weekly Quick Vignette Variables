@@ -1,0 +1,54 @@
+//Color Menu
+var colorDropdownMenu = thisComp.layer("CTRL").effect("colorDropdownMenu")("Menu").value;
+
+var colorControl1 = thisComp.layer("CTRL").effect("colorControl1")("Color").value;
+var colorControl2 = thisComp.layer("CTRL").effect("colorControl2")("Color").value;
+var colorControl3 = thisComp.layer("CTRL").effect("colorControl3")("Color").value;
+var colorControl4 = thisComp.layer("CTRL").effect("colorControl4")("Color").value;
+var colorControl5 = thisComp.layer("CTRL").effect("colorControl5")("Color").value;
+var colorControl6 = thisComp.layer("CTRL").effect("colorControl6")("Color").value;
+var colorControl7 = thisComp.layer("CTRL").effect("colorControl7")("Color").value;
+var colorControl8 = thisComp.layer("CTRL").effect("colorControl8")("Color").value;
+
+if (colorDropdownMenu == 1) {
+  colorControl1;
+} else if (colorDropdownMenu == 2) {
+  colorControl2;
+} else if (colorDropdownMenu == 3) {
+  colorControl3;
+} else if (colorDropdownMenu == 4) {
+  colorControl4;
+} else if (colorDropdownMenu == 5) {
+  colorControl5;
+} else if (colorDropdownMenu == 6) {
+  colorControl6;
+} else if (colorDropdownMenu == 7) {
+  colorControl7;
+} else if (colorDropdownMenu == 8) {
+  colorControl8;
+}
+
+//Transition Sliders
+var motionStyle = thisComp.layer("CTRL").effect("motionStyle")("Menu").value;
+var expansionOverrideSlider =  thisComp.layer("CTRL").effect("expansionOverrideSlider")("Slider").value;
+
+var animateIn = (motionStyle == 1)
+var hold = (motionStyle == 2)
+var animateOut = (motionStyle == 3)
+
+var animateInSlider = thisComp.layer("CTRL").effect("animateInSlider")("Slider").value;
+var animateOutSlider = thisComp.layer("CTRL").effect("animateOutSlider")("Slider").value;
+var hold = value;
+
+
+if (motionStyle = animateIn) {
+  animateInSlider + expansionOverrideSlider;
+} else if (motionStyle = animateOut) {
+  animateOutSlider + expansionOverrideSlider;
+} else if (motionStyle = hold) {
+  hold + expansionOverrideSlider;
+}
+
+// Number Rounding
+
+Math.round();

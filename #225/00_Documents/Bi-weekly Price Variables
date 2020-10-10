@@ -1,0 +1,239 @@
+//Color Menu
+var backgroundColorDropdownMenu = thisComp.layer("CTRL").effect("backgroundColorDropdownMenu")("Menu").value;
+var textColorDropdownMenu = thisComp.layer("CTRL").effect("textColorDropdownMenu")("Menu").value;
+
+var colorDropdownMenu = thisComp.layer("CTRL").effect("colorDropdownMenu")("Menu").value;
+
+var colorControl1 = thisComp.layer("CTRL").effect("colorControl1")("Color").value;
+var colorControl2 = thisComp.layer("CTRL").effect("colorControl2")("Color").value;
+var colorControl3 = thisComp.layer("CTRL").effect("colorControl3")("Color").value;
+var colorControl4 = thisComp.layer("CTRL").effect("colorControl4")("Color").value;
+var colorControl5 = thisComp.layer("CTRL").effect("colorControl5")("Color").value;
+var colorControl6 = thisComp.layer("CTRL").effect("colorControl6")("Color").value;
+var colorControl7 = thisComp.layer("CTRL").effect("colorControl7")("Color").value;
+var colorControl8 = thisComp.layer("CTRL").effect("colorControl8")("Color").value;
+
+if (colorDropdownMenu == 1) {
+  colorControl1;
+} else if (colorDropdownMenu == 2) {
+  colorControl2;
+} else if (colorDropdownMenu == 3) {
+  colorControl3;
+} else if (colorDropdownMenu == 4) {
+  colorControl4;
+} else if (colorDropdownMenu == 5) {
+  colorControl5;
+} else if (colorDropdownMenu == 6) {
+  colorControl6;
+} else if (colorDropdownMenu == 7) {
+  colorControl7;
+} else if (colorDropdownMenu == 8) {
+  colorControl8;
+}
+
+//Percentage
+var percentageMultiplier = thisComp.layer("CTRL").effect("percentageMultiplier")("Slider");
+var percentageSlider = thisComp.layer("CTRL").effect("percentageSlider")("Slider").value.toFixed(2);
+percentageSlider + "%";
+
+//Percentage Multiplier
+value*percentageMultiplier;
+
+//Percentage Arrow Color
+if (percentageSlider == 0) {
+  colorControl8;
+} else if (percentageSlider <= 0) {
+  colorControl6;
+} else if (percentageSlider >= 0) {
+  colorControl5;
+}
+
+//Percentage Arrow Direction
+if (percentageSlider < 0) {
+  180;
+} else {
+  0;
+}
+
+//Percentage Arrow Opacity
+var percentageSlider = thisComp.layer("CTRL").effect("percentageSlider")("Slider").value.toFixed(2);
+
+if ((typeDropdownMenu == 1)&&(percentageSlider !== 0)) {
+  100;
+} else {
+  0;
+}
+
+//Percentage Position Adjust
+tempX = transform.position[0]
+tempY = transform.position[1]
+
+if ((percentageSlider >= 10)||(percentageSlider <= -10) {
+  [tempX - 45,tempY];
+} else {
+  [tempX,tempY];
+}
+
+//Currency
+var currencyMultiplier = thisComp.layer("CTRL").effect("currencyMultiplier")("Slider");
+var currencySlider = thisComp.layer("CTRL").effect("currencySlider")("Slider");
+
+//Currency Control
+var currencyDropdownMenu = thisComp.layer("CTRL").effect("currencyDropdownMenu")("Menu").value;
+
+var btc = "BTC";
+var eth = "ETH";
+var dollar = "$";
+var pound = "£";
+var euro = "€";
+var zloty = "zł";
+var ruble = "₽";
+var yen = "¥"
+var won = "₩"
+
+if (currencyDropdownMenu == 1) {
+  currencySlider.value.toFixed(5) + btc;
+} else if (currencyDropdownMenu == 2) {
+  dollar + currencySlider.value.toFixed(2);
+} else if (currencyDropdownMenu == 3) {
+  dollar + currencySlider.value.toFixed(2);
+} else if (currencyDropdownMenu == 4) {
+  pound + currencySlider.value.toFixed(2);
+} else if (currencyDropdownMenu == 5) {
+  euro + currencySlider.value.toFixed(2);
+} else if (currencyDropdownMenu == 6) {
+  zloty + currencySlider.value.toFixed(2);
+} else if (currencyDropdownMenu == 7) {
+  ruble + currencySlider.value.toFixed(2);
+} else if (currencyDropdownMenu == 8) {
+  dollar + currencySlider.value.toFixed(2);
+} else if (currencyDropdownMenu == 9) {
+  dollar + currencySlider.value.toFixed(2);
+} else if (currencyDropdownMenu == 10) {
+  yen + currencySlider.value.toFixed(2);
+} else if (currencyDropdownMenu == 11) {
+  won + currencySlider.value.toFixed(2);
+} else if (currencyDropdownMenu == 12) {
+  yen + currencySlider.value.toFixed(2);
+} else if (currencyDropdownMenu == 13) {
+  dollar + currencySlider.value.toFixed(2);
+} else if (currencyDropdownMenu == 13) {
+  dollar + currencySlider.value.toFixed(2);
+}
+
+if (currencyDropdownMenu == 1) {
+  "DCR/BTC";
+} else if (currencyDropdownMenu == 2) {
+  "DCR/USD";
+} else if (currencyDropdownMenu == 3) {
+  "DCR/CAD";
+} else if (currencyDropdownMenu == 4) {
+  "DCR/GBP";
+} else if (currencyDropdownMenu == 5) {
+  "DCR/EUR";
+} else if (currencyDropdownMenu == 6) {
+  "DCR/PLN";
+} else if (currencyDropdownMenu == 7) {
+  "DCR/RUB";
+} else if (currencyDropdownMenu == 8) {
+  "DCR/MXN";
+} else if (currencyDropdownMenu == 6) {
+  "DCR/BRL";
+} else if (currencyDropdownMenu == 7) {
+  "DCR/RMB";
+} else if (currencyDropdownMenu == 8) {
+  "DCR/KWN";
+} else if (currencyDropdownMenu == 8) {
+  "DCR/JPY";
+} else if (currencyDropdownMenu == 6) {
+  "DCR/AUD";
+} else if (currencyDropdownMenu == 6) {
+  "DCR/NZD";
+}
+
+//Price Duration
+var priceDurationDropdownMenu = thisComp.layer("CTRL").effect("priceDurationDropdownMenu")("Menu").value;
+
+if (priceDurationDropdownMenu == 1) {
+  "Price (1d)";
+} else if (priceDurationDropdownMenu == 2) {
+  "Price (7d)";
+} else if (priceDurationDropdownMenu == 3) {
+  "Price (1m)";
+} else if (priceDurationDropdownMenu == 4) {
+  "Price (3m)";
+} else if (priceDurationDropdownMenu == 5) {
+  "Price (1y)";
+}
+
+
+//Transition Sliders
+var motionStyle = thisComp.layer("CTRL").effect("motionStyle")("Menu").value;
+var tempX = transform.scale[0];
+var tempY = transform.scale[1];
+
+var animateIn = (motionStyle == 1)
+var hold = (motionStyle == 2)
+var animateOut = (motionStyle == 3)
+var fullSequence = (motionStyle == 4)
+
+var animateInSlider = thisComp.layer("CTRL").effect("animateInSlider")("Slider").value;
+var animateOutSlider = thisComp.layer("CTRL").effect("animateOutSlider")("Slider").value;
+var hold = value;
+var fullSequenceSlider = thisComp.layer("CTRL").effect("fullSequenceSlider")("Slider").value;
+
+if (animateIn) {
+  [tempX,animateInSlider];
+} else if (animateOut) {
+  [tempX,animateOutSlider];
+} else if (hold) {
+  [tempX,tempY];
+} else if (fullSequence) {
+  [tempX,fullSequenceSlider];
+}
+
+//Type Menu
+var typeDropdownMenu = thisComp.layer("CTRL").effect("typeDropdownMenu")("Menu").value;
+
+if (typeDropdownMenu == 1) {
+  100;
+} else {
+  0;
+}
+
+//Scale Controller
+var headerScaleController = thisComp.layer("CTRL").effect("headerScaleController")("Slider").value;
+
+var tempX = transform.position[0];
+var tempY = transform.position[1];
+var headerTextScaleBase =  thisComp.layer("CTRL").effect("headerTextScaleBase")("Slider").value;
+
+var headerTextLength = thisComp.layer("header").text.sourceText.length;
+
+//Percentage Color
+var percentageSlider = thisComp.layer("CTRL").effect("percentageSlider")("Slider");
+var percentageLogicCheck = thisComp.layer("CTRL").effect("percentageSlider")("Checkbox");
+
+if ((percentageSlider == 0)&&(percentageLogicCheck == 1)) {
+  colorControl8;
+} else if ((percentageSlider <= 0)&&(percentageLogicCheck == 1)) {
+  colorControl6;
+} else if ((percentageSlider >= 0)&&(percentageLogicCheck == 1)) {
+  colorControl5;
+} else if (colorDropdownMenu == 1) {
+  colorControl1;
+} else if (colorDropdownMenu == 2) {
+  colorControl2;
+} else if (colorDropdownMenu == 3) {
+  colorControl3;
+} else if (colorDropdownMenu == 4) {
+  colorControl4;
+} else if (colorDropdownMenu == 5) {
+  colorControl5;
+} else if (colorDropdownMenu == 6) {
+  colorControl6;
+} else if (colorDropdownMenu == 7) {
+  colorControl7;
+} else if (colorDropdownMenu == 8) {
+  colorControl8;
+}
