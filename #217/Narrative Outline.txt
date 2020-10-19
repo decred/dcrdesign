@@ -1,0 +1,615 @@
+﻿Narrative Outline:
+General Premise:
+Over the years the Decred community has responded well to characterisation of Stakey for different purposes.  There is also a requirement to create a differentiation between the initial on-boarding experience and Stakey’s PoS Onboarding Experience so not to muddy the water between them.
+
+
+Stakey breaks down barriers to entry.  Let's take advantage of that.
+
+
+The general premise would be that throughout would be that Stakey could take on a kind of “Mr Ben” type character who takes on different personas in order to convey a given point.  This grounds the experience to a particular look however it does come with some creative trade-offs.
+
+
+https://youtu.be/KJuj_ZT8pjU
+https://www.imdb.com/title/tt0065322/ 
+https://en.wikipedia.org/wiki/Mr_Benn 
+
+
+It is worth noting that the visuals are complementary to the text and should be used to support points raised instead of completely supplement them.
+
+
+In this sense another influence would be the likes of tongue in cheek TV Gameshow Catchphrase.
+
+
+https://youtu.be/9MWs0HchNPo 
+https://en.wikipedia.org/wiki/Catchphrase_(British_game_show) 
+
+
+The show visualised commonly used catchphrases creating an inclusive and popular gameshow.
+
+
+Stakey (being a stylised cartoon creation) lends well to the two influences above and plays well into prior caricatures that have been created in the past by lustosa for staking onboarding as well as special events.
+Format:
+All stakey’s a looped self contained pieces, no longer than 5-8 seconds.  
+
+
+Creating in this way allows more flexibility on the implementation side.  As the user progresses through a section new animations could be introduced to support stated copy.
+
+
+This may not cover every situation however and there will be edgecases that defy a character centric convention.
+
+
+There is an opportunity to create a number of new illustrations to aid staking on-boarding based using a combination of new concept previously produced pieces.  These new narratives have been split into 4 sections below. 
+Introduction:
+Narrative Overview:
+
+
+Description: 
+There is currently no copy for this section however it would make sense to introduce the character prior to exploring the following sections.
+
+
+Failing to do so could throw users ever so slightly provoking a “what the hell is this” response that has been expressed in the past.
+
+
+Scene Overview:
+
+
+Persona 1:
+Description:
+Stakey (no accessories) alone.
+
+
+Action:
+Stakey greets the viewer with a pleasant smile and a wave gesture.
+
+
+Pros:
+
+
+Cons:
+How Does Voting Work:
+Narrative Overview:
+
+
+Description: 
+Decred holders can participate in Proof of Stake governance of the blockchain and project by time-locking DCR to buy tickets. Every block calls five tickets to vote, and a block cannot be added unless it includes at least three votes. Tickets vote in two ways when they are called.
+
+
+Sections: 3
+
+
+Scene Overview:
+
+
+Persona 1:
+“Decred holders can participate in Proof of Stake governance of the blockchain and project by time-locking DCR to buy tickets.”
+
+
+Description:
+Stakey wearing an old timer monocle, moustache and holding an old timepiece and chain.
+
+
+Action:
+Stakey looks at the timepiece from time to time causing slight changes in the appearance of moustache and monocle highlights. The breeze causes the timepiece to sway and rotate from side to side.
+
+
+Messaging:
+Simple here, staking takes time.  In some instances it can be locked in for a long time. 
+
+
+Pros:
+
+
+Cons:
+
+
+Persona 2:
+“Every block calls five tickets to vote, and a block cannot be added unless it includes at least three votes.”
+
+
+Description:
+A visual representation of a block as “a block of flats” with windows showing occupants.  To the side is a real estate sign on the “lawn” with a check on one side and a cross on the other. 
+
+
+Action:
+The occupying tickets appear one at a time occupying themselves with a series of different activities. 
+
+
+As the number of tickets increases the sign outside the sign changes.
+
+
+Messaging:
+Tickets live in blocks, there has to be >= for the block to be valid.
+
+
+Pros:
+
+
+Cons:
+
+
+Persona 3:
+“Tickets vote in two ways when they are called.”
+
+
+Description:
+Stakey holding two ballots.
+
+
+Action:
+Stakey looks side to side at the two ballots that are being held.
+
+
+Messaging:
+There are two types of vote.
+
+
+Pros:
+
+
+Cons:
+
+
+
+
+Description: 
+Consensus rules voting: If there is an open consensus rules change proposal, each ticket votes to approve or reject that proposed change (or abstains). For a rule change proposal to be adopted it requires approval from at least 75% of voting tickets.
+
+
+Scene Overview:
+
+
+Persona 1:
+“Consensus rules voting: If there is an open consensus rules change proposal,”
+
+
+Description:
+Stakey dressed in a construction foreman’s helmet and a Monkey Wrench (of sorts).
+
+
+Action:
+Stakey is engaging in some construction orientated activity: tightening a bolt, hammering in a post.  Grimacing at times of strain.
+
+
+Messaging:
+Consensus rules equal big changes in network infrastructure.
+
+
+Pros:
+
+
+Cons:
+
+
+Persona 2:
+“each ticket votes to approve or reject that proposed change (or abstains).”
+
+
+Description:
+Stakey with a placard expressing it’s voting intention (Yes/No/Abstain) .
+
+
+Action:
+Stakey jolts the placards from side to side expressing his/her views aloud.  The placard flips to reveal an opposing view.
+
+
+Messaging:
+Tickets can vote multiple ways.
+
+
+Pros:
+
+
+Cons:
+
+
+Persona 3:
+“For a rule change proposal to be adopted it requires approval from at least 75% of voting tickets.”
+
+
+Description:
+A rubber stamp “rubber stamping” a proposal with an “Approved” stamp. 
+
+
+Action:
+A stamp moves from the side stamping a proposal document with a stamp labeled “approved leaving a clearly visible imprint on the document. 
+
+
+Messaging:
+These changes require approval from voters
+
+
+Influence: 
+Papers Please: https://youtu.be/_QP5X6fcukM 
+
+
+Pros:
+
+
+Cons:
+
+
+
+
+
+
+Block voting: Tickets vote to approve or reject the way the Proof of Work miner has constructed the block. If the tickets vote to reject the block then the regular transactions are stripped out (including PoW miner reward). This gives PoS ticket voters power to punish miner misbehavior.
+
+
+Scene Overview:
+
+
+Persona 1:
+Block voting: Tickets vote to approve or reject the way the Proof of Work miner has constructed the block.
+
+
+Description:
+An gilded framed image of “the perfect block” superimposed over a sculpture of a far from impressive block.
+
+
+Action:
+The framed image fades away to reveal a far from perfect sculpture, oozing with tickets and transactions protruding from it’s work
+
+
+Messaging:
+Expectation vs. reality.  Sometimes miners submit shoddy work. 
+
+
+Pros:
+
+
+Cons:
+
+
+Persona 2:
+
+
+If the tickets vote to reject the block then the regular transactions are stripped out (including PoW miner reward).
+
+
+Description:
+Officer Stakey demanding the return of “ill-gotten gains”
+
+
+Action:
+Officers stakey hitting his/her nightstick against his hands in an intimidating fashion. 
+
+
+
+
+Messaging:
+PoW that doesn’t conform to the rules bears consequences.
+
+
+Pros:
+
+
+Cons:
+
+
+Persona 3:
+This gives PoS ticket voters power to punish miner misbehavior.
+
+
+Description:
+Judge Stakey with his/her scales of justice and gavel.
+
+
+Action:
+Stakey holds the scales up and the balance aligns. 
+
+
+Messaging:
+PoS holds PoW to account. Stakey is the law.
+
+
+Pros:
+
+
+Cons:
+
+
+Ticket Lifecycle:
+Narrative Overview:
+
+
+When PoS tickets vote in a block they receive a reward, regardless of whether the regular transactions are approved or not.  30% of the block reward goes to PoS voters, so each ticket that votes receives 6% of the block reward.
+
+
+Scene Overview:
+
+
+Persona 1:
+
+
+
+
+Description:
+Birthday Stakey holding a gold in the form of  6%.
+
+
+Action:
+An elated Stakey holding onto it’s 6% block reward as confetti rains down around.
+
+
+Messaging:
+Tickets receive 6% of the block reward each. 
+
+
+Pros:
+
+
+Cons:
+
+
+Additional Information:
+
+
+When a ticket is purchased, the cost of the ticket is locked in your wallet until the ticket is used to vote. After a maturation period, the ticket enters the live ticket pool, from which tickets are selected to vote following a random process. On average, 50% of tickets will be called to vote within 28 days.
+
+
+Scene Overview:
+
+
+Persona 1:
+When a ticket is purchased, the cost of the ticket is locked in your wallet until the ticket is used to vote.
+
+
+Description:
+Piggy Bank with “Ticket Funds” scrawled into the front.
+
+
+Action:
+Tx can be seen entering the top of the Piggy Bank eventually the bottom “plug”comes free revealing the initial transaction.
+
+
+Messaging:
+Funds are locked up.
+
+
+Pros:
+
+
+Cons:
+
+
+Persona 2:
+“After a maturation period, the ticket enters the live ticket pool, from which tickets are selected to vote following a random process.”
+
+
+Description:
+Swimming Pool Stakey with an inflatable rubber ring and goggles.
+
+
+Action:
+Stakey loses grip on his inflatable rubber ring forcing him/her to constantly bend down to pick it up.
+
+
+Messaging:
+After maturing, the ticket enters a pool.
+
+
+Pros:
+
+
+Cons:
+
+
+Persona 3:
+“On average, 50% of tickets will be called to vote within 28 days.”
+
+
+Description:
+Prisoner Stakey in correctional attire, chisel in hand  is seen alongside an engraved tally chart.
+
+
+Action:
+Stakey progressively used the chisel to engrave a “tally”of 28 days into the background.  The tally fades in between engraving strikes to wrap the sequence up in an expedited time.
+
+
+Messaging:
+The average vote time is 28 days.
+
+
+Pros:
+
+
+Cons:
+
+
+Additional Information:
+
+
+There is a 99.5% probability that a ticket will be called to vote before it expires. Tickets can _only_ be revoked after they have expired, or if they were called to vote and failed to respond (missed tickets). 
+
+
+Scene Overview:
+
+
+Persona 1:
+After 142 days in the ticket pool, the ticket will expire and can be revoked - this unlocks the DCR used to buy the ticket but does not return a reward.
+
+
+Description:
+Pirate Stakey with a hat, blackbeard, a scimitar and a reward chest.
+
+
+Action:
+Pirate Stakey can be seen with his leg triumphantly on the reward chest… which when opened reveals nothing. 
+
+
+Messaging:
+Revoked tickets don’t receive rewards.
+
+
+
+
+Pros:
+
+
+Cons:
+
+
+Persona 2:
+“Tickets can _only_ be revoked after they have expired”
+
+
+Description:
+Expired Cheese Stakey surrounded by flies. 
+
+
+Action:
+Expired Stakey is being surrounded by flies which draw stylised dashed lines.
+
+
+Messaging:
+Expired tickets are past their sell-by date.
+
+
+Pros:
+
+
+Cons:
+
+
+Persona 3:
+“or if they were called to vote and failed to respond (missed tickets).”
+
+
+Description:
+Ghost Stakey draped in a bedsheet with slits where his/her eyes sit.
+
+
+Action:
+Intermittently Ghost Stakey raises its hands to “scare” the audience.
+
+
+
+
+Messaging:
+Missing tickets are tickets who aren't present to vote.
+
+
+Pros:
+
+
+Cons:
+
+
+Additional Information:
+
+
+While tickets are live, they are eligible to vote on every Politeia proposal which starts voting. When voting for a proposal opens, every ticket in the live pool at that point in time is eligible to vote on it, until the voting period closes. Votes on Politeia proposals are cast off-chain, but must be signed by the wallet that owns the tickets. 
+
+
+Scene Overview:
+
+
+Persona 1:
+While tickets are live, they are eligible to vote on every Politeia proposal which starts voting.
+
+
+Description:
+Stakey progressively submerged in a pile of proposals.
+
+
+Action:
+Stakey is progressively swapped with proposals with descends from above eventually fading in periodically.. 
+
+
+Messaging:
+Live tickets mean you can vote on every proposal that starts.
+
+
+Pros:
+
+
+Cons:
+
+
+Persona 2:
+“When voting for a proposal opens, every ticket in the live pool at that point in time is eligible to vote on it, until the voting period closes.”
+
+
+Description:
+Photographer Stakey poised with camera in hand.
+
+
+Action:
+Intermittently Stakey reaches for his camera and takes a snapshot, triggering a small flash.
+
+
+Messaging:
+Pi-works on a “snapshot” system.
+
+
+Pros:
+
+
+Cons:
+
+
+Persona 3:
+“Votes on Politeia proposals are cast off-chain, but must be signed by the wallet that owns the tickets.”
+
+
+Description:
+?
+
+
+Action:
+?
+
+
+Messaging:
+
+
+
+
+Pros:
+
+
+Cons:
+
+
+Additional Information:
+
+
+Active participation in Proof of Stake voting contributes to securing the Decred chain and setting the future direction of Decred.
+
+
+Scene Overview:
+
+
+Persona 1:
+“Active participation in Proof of Stake voting contributes to securing the Decred chain and setting the future direction of Decred.”
+
+
+Description:
+Explorer Stakey with a duffle backpack and walking boots is met with a crossroads signpost.
+
+
+Action:
+Explorer Stakey is seen stroking his chin in the presence of the signpost ahead.
+
+
+Messaging:
+Whatever direction Decred goes it’s our choice.
+
+
+
+
+Pros:
+
+
+Cons:
+
+
+
+
+Additional Information:
+Know your ticket:
+Narrative Overview:
+In 2018 Marcelo Lustosa produced a set of stakey characters representing various states of the ticket: https://github.com/decred/dcrdesign/issues/51
+
+
+This was a great premise that was well-received by the community.  There are numerous persona’s used in the prior section that are applicable / borrowed from the initial sketches.

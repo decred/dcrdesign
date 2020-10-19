@@ -1,0 +1,180 @@
+Project Approach:
+Project Background:
+The following is explained by Kyle Chivers:
+
+
+The Initial onboarding sequence in Decrediton 1.5.1 (Current Version)In June 2018 
+
+
+I assisted Eeter.co in the creation of a selection of initial onboarding slides visible to every user that installs Decrediton. The aim of this was to ensure that every user was informed of a very high-level look at the core workings of Decred's blockchain as well as some other miscellaneous safety considerations prior to using the application.
+
+
+Historically, this was pre-Politeia, and information regarding off-chain voting was greatly simplified in the absence of the established infrastructure.
+
+
+In January 2019 an issue was posted outlining ambitions to create a similar experience to explain Ticket Lifecycle as well as the difference between Decred's on and off-chain PoS voting. 
+
+
+Although an experience was implemented it was quite short of vision the issue aimed to realize.
+
+
+Localisation:
+Decred currently supports localisation for a number of languages and there is no suggestion that the list won't continue to grow in the future.
+  
+
+All current art assets used for onboarding in Decrediton include text accompanied with imagery which whilst looking clean in this example is rather problematic in the long run.
+An example of a previously created onboarding illustration by Marcelo Lustosa.Such designs create a number of time-intensive issues:
+
+
+* Non-responsive to changes in screen size. Forever square.
+* Rigid in the face of any design changes. Any changes require a new image.
+* Each language supported requires a new image which isn't ideal.
+* Inappropriate for use on small screens.
+
+
+Technical: 
+  
+
+UI mockup by Eeter.co for an updated Decrediton Onboarding Experience outlined in dcrdesign issue #104.
+
+
+Another caveat of previous design choices would be satisfying the technical specification outlined above that requires 2:1 images would be unworkable using the current 1:1 imagery as it stands.
+
+
+In addition to this much case must be considered in designing background and foreground elements in order to scale correctly and not obstruct important text elements.
+
+
+Content:
+There is an issue with various images used reinforcing outdated terminology and imagery. The change from Stakepool > Voting Service Provider must be reflected in the imagery conveyed and the terminology stated. 
+
+
+In dcrdesign issue #104 community member Richard Red contributed to a strong set of copy for a renewed PoS Ticket Lifecycle sequence which will provide the basis for the Narrative outline prior to community input. 
+
+
+It is worth considering that some of the structuring of the text may not be appropriate for an initial onboarding, especially in relation to Ticket Lifecycle. Here structure and terminology outlined in dcrdocs is more appropriate. 
+
+
+This proposal aims to build upon the groundwork set in previous issues and fulfil all original aims as well as some updated requirements. 
+
+
+Project Objectives:
+Below are the core objectives that this proposal sets out to accomplish:
+
+
+Art:
+* Develop [number of pieces] short animated scenes that effectively communicate key statements outlining the ticket lifecycle. 
+* Bring PoS Onboarding materials to the same standard as previously set in the Initial Onboarding materials.
+* Removal of textual elements that clash with Decrediton's localization support.
+* Further Decred's Stakey character development through motion design.
+
+
+Technical:
+* Deliverables that allow for clean implementation across desktop and mobile devices.
+* Seamlessly looped animations with a duration of no longer than 12 seconds exported as JSON, GIF and MP4.
+
+
+Misc:
+* Updated Onboarding copy.
+* Community Outreach facilitated through Livestream Q&A to be reposted across various DCR channels. 
+
+
+Technical Approach:
+Compositions will be treated as two separate layers that work together to communicate narrative:
+  
+
+Foreground (Light Blue): This area is reserved for the focal point of the composition, albiet Stakey or an item that equally communicates the message.
+
+
+Background (Navy): These will consist of complimentary imagery that supports the narrative conveyed. This will in most cases be used to communicate location. 
+
+
+Care will be taken with Background elements to ensure adequate spacing is considered for text elements overlaid. In addition to this action safe areas will be respected to ensure that elements.
+
+
+In order to allow for greater flexibility in implementation elements will be exported both separately and together. Whilst Decrediton favours a 2:1 element there are many applications (such a Dcrweb and Mobile) that may favour a simple 1:1 representation, hence we are catering for both.
+
+
+Shadows: these will be contained within the respective layers of the shadow casters so as not to result in weird situations where shadows are present on a Background layer without any reasoning.
+
+
+Duration: Sequences created will not exceed the duration of 12 seconds. This is so files sizes can be kept to a reasonable size. In addition to this longer sequences don't suit this context. The primary responsibility of imagery here is to support accompanying text elements, not to completely supplement them. 
+
+
+Output: Deliverables will be provided in: MP4, GIF (with alpha) as well as JSON which should cover the majority of required use cases.
+
+
+Project Approach:
+In this section the approach of the project to numerous aspects of project management are outlined:
+
+
+Communications: The project will be managed through the already well established dcrdesign GitHub repository. On approval of the proposal, the original staking onboarding issue #104 will be deprecated and a new issue for the updated project will be established.
+Design: Development of art elements will be available to review in real-time through an online storyboard using open source design tool Figma.
+
+
+This will allow Decred stakeholders the opportunity to see the project come together with transparency and provide input where necessary. This also provides the opportunity to implement UI mockups and design and prototype respectful of the context in which elements will be viewed.
+
+
+Obviously "with great power comes great responsibility" so the ability for commenting directly within Figma may be withdrawn at any time in instances of abuse that begin to disrupt progress.
+
+
+The review of animated assets will be facilitated directly within Figma through the Lottie Files plug-in, in-turn allowing for the review of the animation within Figma.
+
+
+Version Management: Because of the cloud-hosted nature of all aspects of project development there will be a comprehensive account of version history available publically.
+
+
+Distribution: On completion of the project deliverables will be archived in the relevant Github issue. In order to encourage usage of animations outside of this initial context (ie: for presentations) 3rd Party service Lottie Files will be used to host the animation vector.JSON files under an already established Decred Project account under C.C Attribution Licence.
+
+
+Licensing: 
+All software developed as part of Decred shall be free and open source-software.
+
+
+With Marcelo Lustosa being the current copyright holder of Stakey there will have to be some form of Attribution. Therefore the assets created copyright Marcelo Lustosa All Rights Reserved until a planned transition of all rights to Decred Holdings Group LLC in a later proposal.
+
+
+"Stakey cannot be used for commercial purposes or monetary compensation."
+
+
+Art Direction: This will deviate from the prior direction established in the Initial Onboarding section and adopt a more playful aesthetic, understandably with the introduction of Stakey.
+
+
+"Stakey should be used on a clean light or dark background with appropriate contrast. These are finalised compositions and should not be edited, remixed unless approved by the author."
+
+
+  
+
+Stakey as presented in the Decred Brand Guideline.
+
+
+The style currently established and referenced above will be honoured throughout. One slight deviation from the outline in the Decred Brand Guideline will be less of a reliance on the Left, Right, Top and Bottom presentations of the character as depicted. Instead, opting for a more implied transition between Front, Back, Left and Right where necessary, comparable to the way Paper Mario moves. 
+
+
+An example of suggested transitory movement exhibited in Paper MarioTaking the approach above will allow for a greater focus on establishing a uniform scale and prioritising characterful interaction instead of moving the character around the screen. This also planned to best utilise the limited space Stakey is technically allocated. 
+
+
+It is worth noting that Stakey should not be the only visual device used to convey narrative as, at times this might be counterproductive. Other items rendered in a similar playful style will also be considered.
+
+
+Toolset: We'll primarily be using two design applications for Adobe's Creative Suite for this task: Adobe Illustrator and Adobe After Effects.
+
+
+:stakey_squat: saw quite a lot of action in the Slack days.
+
+
+Character animation will be facilitated using a simple Joystick Rig. This same technique was used with the original :stakey_squat: in a very limited capacity. The rig would be adapted for multiple use cases across the varied scenes intended.
+
+
+Lottie: All animation will be created conforming to Lottie's animation specification providing greater futureproofing for implementation outside of its initial purpose.
+
+
+This does require additional testing and some consideration regarding the design approach but the ability to add value to this proposal by adding this functionality is worth its weight in the opportunities it provides those developing other Decred applications.
+
+
+For anyone who is concerned about a specific aspect of Production please feel free to reach out and we'd be happy to provide a more in-depth technical explanation.
+
+
+Changes: If any additional changes are required outside of the originally proposed plan these changes will be proposed to the community prior to any amendments. 
+
+
+Additional hours brought by any unforeseen changes are factored into the proposal through a discretionary allowance which can be utilized ensuring the project can be completed even if these situations unfortunately occur.
