@@ -1,7 +1,7 @@
-**/dcrdesign** repo has been created with the intent of scaling the design output, maintaining consistency, accessibility and organisation. Dcr design domain consists of ui/ux; identity, and visual communications sub-domains. Current functions are following: 
+**/dcrdesign** helps with coordination, maintaince, accessibility and scaling with Decred projects design outputs. DCR design domain consists of ui/ux; identity, and visual communications sub-domains. Current functions are following: 
 
 - Communicating DCR design contributors current tasks and forming high level overviews (using Gh’s built-in pm features). 
-- Coordinating work and syncing up with other designers. 
+- Coordinating work and syncing up with designers, developers and other contributors. 
 - Posting deliverables and reports for archiving. 
 - Providing a central location for cross-referencing design related issues or questions through-out the ecosystem.
 - Accepting and reviewing requests. 
